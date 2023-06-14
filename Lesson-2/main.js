@@ -99,6 +99,7 @@
 
 // var counter = 0;
 
+// ! WE SHOULD USE WHILE WHEN WE DON'T KNOW ANYTHING ABOUT : AMOUNT OF ITERRATION
 // 0 -> ... -> 10
 // break -> force quit
 // continue -> skip
@@ -127,3 +128,94 @@
 // if userNumber equal magic -> tell user -> Amazing
 // if userNumber - not a number -> tell him that : "Type error. Incorrect value"
 // User might to quit a game on the start of our program and on the end
+
+// alert('Hello user!');
+
+// var attemptsCounter = 0;
+
+// var tips = {
+//     bigger: 'Ur number bigger than mine',
+//     less: 'Ur number less than mine',
+//     incorrect: 'Invalid value!'
+// };
+
+// var magicNumber = 23;
+
+// var isRunning = true;
+
+// var userChoose = prompt('Do you wanna play this game ?');
+
+// // toLowerCase
+// if (userChoose.toLocaleLowerCase() === 'y') {
+//     while (isRunning === true) {
+//         var userNumber = parseInt(prompt('Enter ur number : '));
+
+//         if (magicNumber === userNumber) {
+//             var isEscape = confirm('Do you wanna try again');
+
+//             if (!isEscape) {
+//                 isRunning = false;
+//             }
+
+//             attemptsCounter = 0;
+
+//             continue;
+//         } else if (magicNumber < userNumber) {
+//             console.log(tips.bigger);
+//         } else if (magicNumber > userNumber) {
+//             console.log(tips.less);
+//         } else {
+//             console.log(tips.incorrect);
+//         }
+
+//         attemptsCounter = attemptsCounter + 1;
+//     }
+// } else {
+//     alert('Goodbye');
+// }
+
+// cycles
+//      itter declar , condition ,increment
+// FOR (var i = 0 ; i < ... , i++)
+//              0123456789101112
+// var greeting = 'Hello world!!';
+
+// // length
+// // console.log(greeting.length);
+// // console.log(greeting[1]);
+// var hello = '';
+
+// for (var i = 0; i < greeting.length; i++) {
+//     var letter = greeting[i];
+
+//     if (i < 5) {
+//         hello = hello + letter;
+//     }
+//     if (i === 5) continue;
+
+//     console.log('[CURRENT_COUNTER - i]', i);
+//     console.log('[CURRENT_LETTER]', letter);
+//     console.log('________________________');
+
+//     if (i === 12) {
+//         hello = hello + letter;
+//     }
+// }
+
+// var number = 0;
+// ++ = + 1
+// console.log(number++);
+// console.log(--number);
+
+// User validator
+
+// 1) Get user : name , email , password , age
+// 2) name must has at least 2 symbols
+// 3) if name is valid -> check user email
+// 4) email should include into it -> "@" symbol
+// 5) password should be longer than 7 and * might
+// include : numbers and strings
+// 6) This case migth be acceed only if all conditions above
+// is TRUE...age must be bigger than 18
+// 7) If all above is true -> console -> Welcome!
+// Otherwise -> Go out of here!
