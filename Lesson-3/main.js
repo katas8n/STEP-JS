@@ -113,4 +113,5 @@
 // name - should contain : . as a first character in the string 
 // name - should contain : !  as a last character in the string
 
+// if name is correct
 // 2) age - user age should divide on 4 without part after divide operation
