@@ -1,0 +1,39 @@
+// $bg-color : orange;
+
+// * {
+//   padding: 0;
+//   margin: 0;
+//   box-sizing: border-box;
+// }
+
+// header {
+//   nav {
+//     li {
+//       a {
+//         color: darkorange;
+//         font-size: 2rem;
+
+//       }
+//     }
+//   }
+// }
+
+// .header {
+//   .nav {
+//     &-item {
+//       background: gold;
+//       padding: 2rem;
+//     }
+//   }
+// }
+
+// // $ - variable defenition
+// @mixin take($fC , $sC) {
+//   background: linear-gradient($fC, $sC);
+// }
+
+// #app {
+//   @include take(lightgreen, $bg-color);
+//   height: 100vh;
+
+// }
