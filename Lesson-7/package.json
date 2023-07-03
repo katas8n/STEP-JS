@@ -1,0 +1,11 @@
+{
+  "name": "lesson-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx tsc"
+  },
+  "author": "Kir Katason",
+  "license": "ISC"
+}

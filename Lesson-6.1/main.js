@@ -126,6 +126,6 @@
 // 1) Greeting (make funtion that will greet user)
 // 2) Get the following values : name , card_number , date ,cvv  and make object 
 // 3) Push to UsersDB
-
+// ctrl + /
 
 // Interface : a) Get users b) New scum operation q) quit

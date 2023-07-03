@@ -1,0 +1,6 @@
+npm init - to create an enviroinment 
+tsc --help - get list of commands 
+
+execute following commands , to create ur tsconfig.file : 
+
+tsc --init
