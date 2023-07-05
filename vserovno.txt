@@ -1,0 +1,34 @@
+Homework 
+
+findNemo game 
+
+str = "gvhbjnkmnemofvgbhunijmknemofvgbhjmenogbhnnemo"
+find nemo in the string 
+
+
+arr = ["not nemo" , "not nemo" , "nemo" , "not nemo" "not nemo" , "nemo"]
+find nemo in the arr 
+
+const nemo = {
+    name : {
+        firstName : {
+            fullName : {
+                realName : {
+                    name : "Nemo"
+                }
+            }
+        }
+    }
+}
+
+Is nemo nemo ?
+
+arr = ["a", "c" , "d" ,"e"]
+
+Write function that will recieve three arguments :arr, firs_el_index , second_el_index
+function should return arr 
+
+TASK : function should take arr and arguments and swap it 
+
+newArr = function(arr , 1 , 3)
+["a", "e" , "d" ,"c"]
