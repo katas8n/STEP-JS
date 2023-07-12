@@ -69,9 +69,9 @@
     
 //     const {phones , guitars , laptops} = store;
 
-//     let isRunning = true;
+//     let isRunning = true; O(1)
 
-//     while(isRunning) {
+//     while(isRunning) {   O(n)
 
 //         let user = null;
 
@@ -80,6 +80,8 @@
 //         if(!userName)  return ;
 
 //         greeting(userName);
+
+// O(nˆ2)
 
 //         const userChoice = parseInt(prompt("1) Store  2) Cart 3) Login 4) Registration"));
 

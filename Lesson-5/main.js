@@ -222,10 +222,13 @@
 // 2. Update value one of values (ur pick)
 
 
-function sum_of_two_nums(a , b) {
-    console.log(`
-        ${a + b}
-    `)
-}
+// function returnString(str){
+//     return [str];
+// }
 
-sum_of_two_nums(12 , 2)
+// const returnedStr = returnString("Message");
+// returnedStr.forEach(el => {
+//     el.
+// })
+
+// returnString.

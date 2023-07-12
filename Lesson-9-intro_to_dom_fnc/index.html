@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Application</title>
+</head>
+<body>
+    <div id="app">
+
+        <form class="form">
+            <fieldset>
+                <label for="user-name">Name</label>
+                <input name="name" type="text">
+            </fieldset>
+
+            <fieldset>
+                <span class="error-message">Incorrect data try again</span>
+                <label for="user-email">Email</label>
+                <input name="email" type="text">
+            </fieldset>
+
+            <fieldset>
+                <label for="user-password">Password</label>
+                <input name="password" type="text">
+            </fieldset>
+
+            <fieldset>
+                <label for="confirm-password">Confirm password</label>
+                <input name="confirm-password" type="text">
+            </fieldset>
+            
+
+            <div class="button-wrapper">
+                <button id="submit">Send</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

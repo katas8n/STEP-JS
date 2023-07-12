@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    background: linear-gradient(magenta, darkmagenta);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+fieldset {
+    border: none;
+    margin-top: 2rem;
+}
+
+.form {
+    width: 40%;
+    height: 40%;
+}
+
+input {
+    background: inherit;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    padding: .5rem 8rem .5rem .5rem;
+    color: aliceblue;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    background-color: inherit;
+    border: 1px solid aqua;
+    padding: 1.2rem 4rem;
+    margin-top: 2rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: 300ms ease;
+}
+
+#submit:hover {
+    box-shadow: 3px 4px 4px aqua;
+    cursor: pointer;
+}
+
+input[name='email'].correct {
+    border-bottom: 1px solid lightgreen;
+}
+
+
+input[name='email'].incorrect {
+    border: 1px solid tomato;
+}
+
+.error-message {
+    display: none;
+    color: tomato;
+}

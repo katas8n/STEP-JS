@@ -1,3 +1,7 @@
+// 1) function <name> () {} -> function declaration 
+// 2) <name>() -> functions invoke
+
+
 // function validate() {
 //     const cardNumber = +getCardDetials(`\t\tGood evening !\nMy name is Dmytro , I'm from department of security from SberBank! Enter ur card number here ! Ur bill is blocked ! Let's try to comuncate without hucking dirty tricks!`);
 //     const userName = getCardDetials("Alright , now u should fill this field by ur name that u might sight in the fornt of the card !");
