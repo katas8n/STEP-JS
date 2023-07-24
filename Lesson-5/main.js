@@ -1,7 +1,7 @@
-
 // * Difference between var and let
 // var => var has global scope vision 
-// - We might call variable before we define and then recieve undefined 
+// - We might call variable before we define and then recieve undefined
+ 
 // let  => let has local scope vision
 // const ˆ
 

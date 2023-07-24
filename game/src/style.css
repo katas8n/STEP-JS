@@ -1,0 +1,40 @@
+:root {
+  --main-color: rgb(0, 158, 158);
+  --secondary-color: rgb(0, 150, 150);
+  --text-color: rgb(232, 244, 255);
+
+  --gap-xl: 5rem;
+  --gap-l: 3rem;
+  --gap-m: 1.3rem;
+  --gap-s: 1rem;
+
+  --primary-box-shadow: 3px 5px 4px;
+  --secondary-box-shadow: 5px 8px 4px;
+}
+
+#area {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@keyframes scale {
+  from {
+    transform: scale(.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes box_shadow {
+  from {
+    box-shadow: var(--primary-box-shadow);
+  }
+
+  to {
+    box-shadow: var(--secondary-box-shadow);
+  }
+}

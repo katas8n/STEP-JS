@@ -1,0 +1,35 @@
+Homework
+
+1) Creacte two objects 
+example : {
+    name ,
+    damage,
+    hp
+}
+
+2) Write function which will recieve such params : obj1 , obj2  
+
+2.1) Function name is : battle 
+2.2) Function must return new obj1 and obj2 as arr type [obj1 , ...]
+2.2.1) obj1 should damage obj2 -> then obj2['hp'] must be updated 
+
+3) Console.log this result (as a result we have functions return)
+
+{
+    name ,
+    damage,
+    hp
+}
+{
+    name ,
+    damage,
+    hp
+}
+
+function (1,2) {
+    obj[?] = obj[?] - obj[?];
+
+    return [1 , 2]
+}
+
+clg(?)
